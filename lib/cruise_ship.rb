@@ -11,8 +11,8 @@ def select_winner(passengers)
     winner = ""
   # add the code snippet here!
   passengers.each do |suite, name|
-    binding.pry
     if suite == :suite_a && name.start_with?("A")
+    binding.pry
       winner = name
     end
   end
